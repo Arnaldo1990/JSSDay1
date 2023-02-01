@@ -5,7 +5,7 @@ let fruits = ["apple", "banana", "kiwi"];
 console.log(fruits);
 fruits.push("orange");
 console.log(fruits);
-fruits.pop("orange");
+fruits.pop();
 console.log(fruits);
 
 let animals = ["monkey", "horse", "dog"];
