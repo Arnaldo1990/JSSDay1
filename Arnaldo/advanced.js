@@ -29,7 +29,7 @@ let newF = Number(f);
 console.log(typeof newF);
 let newI = Number(i);
 console.log(typeof newI);
-let sum2 = (newF + g + h + newI);
+let sum2 = (newF * g * h * newI);
 console.log(sum2);
 
 let sum3 = (sum / sum2);
