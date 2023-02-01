@@ -1,3 +1,4 @@
+// Exercise 1
 let a = 7;
 
 let b = 14;
@@ -33,3 +34,17 @@ console.log(sum2);
 
 let sum3 = (sum / sum2);
 console.log(sum3);
+
+// Exercise2
+let people = ["Greg", "Mary", "Devon", "James"];
+console.log(people);
+people.shift("Greg");
+console.log(people);
+people.unshift("Matt");
+console.log(people);
+people.pop("James");
+console.log(people);
+people.push("Arnaldo");
+console.log(people);
+console.log(people.slice(2));
+console.log(people.indexOf("Mary"));
