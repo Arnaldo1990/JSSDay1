@@ -47,7 +47,7 @@ let newC = Number(c);
 let newD = Number(d);
 console.log(typeof newC);
 console.log(typeof newD);
-console.log(a + b + newC + newD + e);
+/* console.log(a + b + newC + newD + e); */
 let sum = (a + b + newC + newD + e);
 console.log(sum);
 
@@ -65,8 +65,8 @@ let newF = Number(f);
 let newI = Number(i);
 console.log(typeof newF);
 console.log(typeof newI);
-console.log(newF * g + h + newI);
-let product = (newF * g + h + newI);
+/* console.log(newF * g * h * newI); */
+let product = (newF * g * h * newI);
 console.log(product);
 
 //Divide the two results that you got from the arithmetic operations and print the result in the web browser.
@@ -120,3 +120,9 @@ clean = mess.split('$').join(" "); //breaks the array and separates words with a
 console.log(clean)
 document.write(clean); //prints the words in the browser
 document.getElementById("test").innerHTML = clean;
+
+/*
+clean = mess.split('$').join(" ");
+//document.write(clean);
+//document.write(mess.replace(/\$/,"")+ "i am replace")
+document.write(mess.replaceAll("$", " ") + "i am replace"); */
